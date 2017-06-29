@@ -1,5 +1,7 @@
 package com.planb.main;
 
+import java.util.Arrays;
+
 public class Main {
 	public static void main(String[] args) {
 		/*
@@ -25,6 +27,11 @@ public class Main {
 		
 		int[] array4 = {1, 2, 3};
 		// 리터럴 초기화 2
+		
+		array4[0] = 3;
+		array4[1] = 5;
+		Arrays.sort(array4);
+		// Arrays 클래스를 이용한 정렬
 		
 		for(int i = 0; i < array4.length; i++) { // length 필드는 final
 			System.out.println(array4[i]);
