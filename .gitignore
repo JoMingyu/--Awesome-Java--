@@ -1,8 +1,17 @@
 # Compiled class file
 *.class
 
-# Log file
+.mylyn/.taskListIndex/
 *.log
+.plugins/org.eclipse.m2e.core/nexus/
+*.swp
+.mylyn/*
+.plugins/org.eclipse.core.resources/.root/*.tree
+.markers
+.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+.plugins/org.eclipse.ui.workbench/workingsets.xml
+.plugins/org.eclipse.team.cvs.core
+.recommenders/
 
 # BlueJ files
 *.ctxt
