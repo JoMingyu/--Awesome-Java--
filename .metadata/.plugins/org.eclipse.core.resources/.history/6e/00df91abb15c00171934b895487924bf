@@ -1,0 +1,11 @@
+package com.planb.main;
+
+public class Main {
+	public static void main(String[] args) {
+		int[] array; // int형 배열 선언
+		array = new int[10]; // 인스턴스화
+		
+		int[] array2 = new int[10]; // 선언과 초기화
+		int[] array3 = {1, 2, 3}; // 리터럴 초기화
+	}
+}
