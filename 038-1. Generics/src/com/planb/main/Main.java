@@ -7,6 +7,7 @@ public class Main {
 		System.out.println(ng.getString());
 		
 		Generic<Double> g = new Generic<>(1.5);
+		// 넘겨주는 클래스를 타입 파라미터라고 부름
 		System.out.println(g.get());
 	}
 }
